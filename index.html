@@ -7,50 +7,23 @@
     <script src="https://d1ukdhoxof1oxs.cloudfront.net/pipefy-client.js"></script>
     <script>
       PipefyApp.initCall({
-        'card-tab': function(p, pipe) {
-          return {
-            icon: './images/icon-blue.svg',
-            title: 'Github',
-            url: './attachments.html',
-            claimedAttachments: function(attachments) {
-              // Iterate by all attachments to claim attachments from Github
-              return attachments.filter(function(attachment){
-                return attachment.url.indexOf('https://github.com') === 0;
-              });
-            },
-            buttons: [
-              {
-                text: 'Attach',
-                callback: function(p) {
-                  getToken(p).then(function(token) {
-                    if (token) {
-                      showInitialDropdown(p);
-                    } else {
-                      showAuthorizeDropdown(p);
-                    }
-                  });
-                }
-              },
-            ]
-          }
-        },
         'card-buttons': function(p, pipe) {
-  return [
-    {
-      icon: './images/icon-blue.svg',
-      text: 'Test',
-      callback: function(p) {
-        // Open dropdown when user clicks on button
-        p.dropdown({
-          title: 'Sprint App',
-          items: [
-            ...
+          return [
+            {
+              icon: 'https://cdn-icons-png.flaticon.com/512/2554/2554952.png',
+              text: 'Test',
+              callback: function(p) {
+                // Open dropdown when user clicks on button
+                p.dropdown({
+                  title: 'Sprint App',
+                  items: [
+                    "A", "B"
+                  ]
+                });
+              },
+            }
           ]
-        });
-      },
-    }
-  ]
-}
+        }
       });
     </script>
   </body>
