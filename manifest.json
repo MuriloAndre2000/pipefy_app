@@ -2,10 +2,10 @@
   "name": "Teste App",
   "short_description": "Add a persistent video chat link to your pipe in a single click.",
   "description": "No need to create a new video link every time you want to chat with your team. All members in the pipe can access the persistent video chat using the same link at anytime.",
-  "icon": "https://cdn.glitch.com/.../icon.png",
-  "author": "Pipefy, Inc.",
-  "init_url": "https://raw.githubusercontent.com/MuriloAndre2000/pipefy_app/main/index.html",
-  "screenshots": ["https://cdn.glitch.com/.../screenshot.png"],
+  "icon": "https://raw.githubusercontent.com/tabler/tabler-icons/master/icons/2fa.svg",
+  "author": "Murilo",
+  "init_url": "./index.html",
+  "screenshots": ["https://web-dev.imgix.net/image/admin/lzLo9JCh6bcehH2nSH0n.png?auto=format"],
   "features": [
     "card-buttons"
   ]
