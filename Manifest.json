@@ -1,5 +1,5 @@
 {
-  "name": "appear.in",
+  "name": "Teste App",
   "short_description": "Add a persistent video chat link to your pipe in a single click.",
   "description": "No need to create a new video link every time you want to chat with your team. All members in the pipe can access the persistent video chat using the same link at anytime.",
   "icon": "https://cdn.glitch.com/.../icon.png",
@@ -7,6 +7,6 @@
   "init_url": "./",
   "screenshots": ["https://cdn.glitch.com/.../screenshot.png"],
   "features": [
-    "pipe-buttons"
+    "card-buttons"
   ]
 }
