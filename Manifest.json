@@ -7,6 +7,7 @@
   "init_url": "./",
   "screenshots": ["https://cdn.glitch.com/.../screenshot.png"],
   "features": [
-    "card-buttons"
+    "card-buttons",
+    "card-tab"
   ]
 }
