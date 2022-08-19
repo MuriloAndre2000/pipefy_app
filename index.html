@@ -34,6 +34,23 @@
             ]
           }
         },
+        'card-buttons': function(p, pipe) {
+  return [
+    {
+      icon: './images/icon-blue.svg',
+      text: 'Test',
+      callback: function(p) {
+        // Open dropdown when user clicks on button
+        p.dropdown({
+          title: 'Sprint App',
+          items: [
+            ...
+          ]
+        });
+      },
+    }
+  ]
+}
       });
     </script>
   </body>
