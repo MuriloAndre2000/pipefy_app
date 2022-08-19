@@ -4,7 +4,7 @@
   "description": "No need to create a new video link every time you want to chat with your team. All members in the pipe can access the persistent video chat using the same link at anytime.",
   "icon": "https://cdn.glitch.com/.../icon.png",
   "author": "Pipefy, Inc.",
-  "init_url": "./",
+  "init_url": "https://raw.githubusercontent.com/MuriloAndre2000/pipefy_app/main/index.html",
   "screenshots": ["https://cdn.glitch.com/.../screenshot.png"],
   "features": [
     "card-buttons"
