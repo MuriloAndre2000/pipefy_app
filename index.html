@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script src="https://d1ukdhoxof1oxs.cloudfront.net/pipefy-client.js"></script>
+    <script>
+      PipefyApp.initCall({
+        'card-tab': function(p, pipe) {
+          return {
+            icon: './images/icon-blue.svg',
+            title: 'Github',
+            url: './attachments.html',
+            claimedAttachments: function(attachments) {
+              // Iterate by all attachments to claim attachments from Github
+              return attachments.filter(function(attachment){
+                return attachment.url.indexOf('https://github.com') === 0;
+              });
+            },
+            buttons: [
+              {
+                text: 'Attach',
+                callback: function(p) {
+                  getToken(p).then(function(token) {
+                    if (token) {
+                      showInitialDropdown(p);
+                    } else {
+                      showAuthorizeDropdown(p);
+                    }
+                  });
+                }
+              },
+            ]
+          }
+        },
+      });
+    </script>
+  </body>
+</html>
