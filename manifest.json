@@ -16,7 +16,7 @@
   },
   "icon": "https://platform.staticpipefy.com/apps/github/icon.png",
   "author": "Pipefy Inc",
-  "init_url": "./",
+  "init_url": "./index.html",
   "screenshots": {
     "en": ["https://platform.staticpipefy.com/apps/github/screenshots/app_en.png"],
     "pt-BR": ["https://platform.staticpipefy.com/apps/github/screenshots/app_pt-br.png"],
