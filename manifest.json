@@ -1,12 +1,29 @@
 {
-  "name": "Teste App",
-  "short_description": "Add a persistent video chat link to your pipe in a single click.",
-  "description": "No need to create a new video link every time you want to chat with your team. All members in the pipe can access the persistent video chat using the same link at anytime.",
-  "icon": "https://raw.githubusercontent.com/tabler/tabler-icons/master/icons/2fa.svg",
-  "author": "Murilo",
-  "init_url": "./index.html",
-  "screenshots": ["https://web-dev.imgix.net/image/admin/lzLo9JCh6bcehH2nSH0n.png?auto=format"],
-  "features": [
-    "card-buttons"
-  ]
+  "name": "Test",
+  "short_description": {
+    "en": "Connect pull requests to cards in this pipe.",
+    "pt-BR": "Conecte os pull requests aos cards deste pipe.",
+    "es": "Conecte los pull requests a las tarjetas de este pipe.",
+    "fr": "Connectez les pull requests aux cartes dans ce pipe.",
+    "ru": null
+  },
+  "description": {
+    "en": "Connect Git pull requests, projects, and wikis to the cards in this pipe. Use the app to manage demands, distribute them to your team, and track every step of the process.",
+    "pt-BR": "Conecte pull requests, projetos e wikis do Git aos cards deste pipe. Use o app para gerenciar tarefas, distribuir demandas e acompanhá-las em todas as etapas do processo.",
+    "es": "Conecte los pull requests, los proyectos y los wikis de Github a las tarjetas de este pipe. Utilice la aplicación para administrar las tareas, distribuir las demandas y hacer un seguimiento de cada paso del proceso.",
+    "fr": "Connectez les pull requests aux cartes dans ce pipe.",
+    "ru": null
+  },
+  "icon": "https://platform.staticpipefy.com/apps/github/icon.png",
+  "author": "Pipefy Inc",
+  "init_url": "./",
+  "screenshots": {
+    "en": ["https://platform.staticpipefy.com/apps/github/screenshots/app_en.png"],
+    "pt-BR": ["https://platform.staticpipefy.com/apps/github/screenshots/app_pt-br.png"],
+    "es": null,
+    "fr": null,
+    "ru": null
+  },
+  "features": ["card-buttons", "card-badges", "pipe-buttons", "settings-button"]
 }
+
